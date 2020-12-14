@@ -64,7 +64,7 @@ RCT_EXPORT_METHOD(pick:(NSDictionary *)options
 
     
     documentPicker.delegate = self;
-    documentPicker.modalPresentationStyle = UIModalPresentationFormSheet;
+    documentPicker.modalPresentationStyle = UIModalPresentationFullScreen;
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 110000
     if (@available(iOS 11, *)) {
